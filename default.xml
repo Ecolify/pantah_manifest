@@ -7,7 +7,7 @@
            
   <remote  name="aosp2"
            fetch="https://android.googlesource.com/"  
-           revision="android14-6.1-2025-05" 
+           revision="refs/tags/android14-6.1-2025-05_r1" 
            review="https://android.googlesource.com/" />
   
   <default revision="refs/tags/android-15.0.0_r0.99"
