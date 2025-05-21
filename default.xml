@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android.googlesource.com/" />
-           
-  <remote  name="aosp2"
-           fetch="https://android.googlesource.com/"  
-           revision="refs/tags/android14-6.1-2025-05_r1" 
-           review="https://android.googlesource.com/" />
-
-  <remote  name="aosp3"
-           fetch="https://github.com/EduardoA3677/"  
-           revision="refs/heads/15" 
-           review="https://github.com/EduardoA3677/" />
-  
-  <remote  name="aosp3"
-           fetch="https://github.com/EduardoA3677/"  
-           revision="refs/heads/15" 
-           review="https://github.com/EduardoA3677/" />
-  
-  <default revision="refs/tags/android-15.0.0_r0.99"
-           remote="aosp" 
-           sync-j="4" />
-
-  <project path="aosp" name="kernel/common" groups="partner" remote="aosp2" >
+    fetch="https://android.googlesource.com/" />
+  <default revision="android-gs-pantah-6.1-android15-qpr2"
+    remote="aosp" sync-j="4" />
+  <project path="aosp" name="kernel/common" groups="partner" >
     <linkfile dest="common/build.config.constants" src="build.config.constants"/>
     <linkfile dest="common/modules.bzl" src="modules.bzl"/>
   </project>
@@ -50,7 +30,7 @@
     <linkfile dest="build_gs201.sh" src="build_gs201.sh"/>
     <linkfile dest=".c2.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/pantah" name="kgs" groups="partner,pantah" remote="aosp3" >
+  <project path="private/devices/google/pantah" name="kernel/devices/google/pantah" groups="partner,pantah" >
     <linkfile dest="build_pantah.sh" src="build_pantah.sh"/>
     <linkfile dest=".d1.bazelrc" src="device.bazelrc"/>
   </project>
@@ -90,7 +70,6 @@
     <linkfile dest="build_comet.sh" src="build_comet.sh"/>
     <linkfile dest=".d8.bazelrc" src="device.bazelrc"/>
   </project>
-
   <project path="private/google-modules/soc/gs" name="kernel/google-modules/soc/gs" groups="partner" />
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
   <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
