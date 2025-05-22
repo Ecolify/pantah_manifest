@@ -24,7 +24,7 @@
            remote="aosp" 
            sync-j="4" />
 
-  <project path="aosp" name="kernel/common" groups="partner" remote="aosp2" >
+  <project path="aosp" name="kernel-common" groups="partner" remote="custom" >
     <linkfile dest="common/build.config.constants" src="build.config.constants"/>
     <linkfile dest="common/modules.bzl" src="modules.bzl"/>
   </project>
