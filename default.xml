@@ -99,8 +99,8 @@
   <project path="private/google-modules/bluetooth/synaptics" name="kernel/google-modules/bluetooth/synaptics" groups="partner" />
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel-google-modules-bms" groups="partner" remote="custom" />
-  <project path="private/google-modules/display/samsung" name="kernel/google-modules/display/samsung" groups="partner" />
-  <project path="private/google-modules/display/common" name="kernel/google-modules/display/common" groups="partner" />
+  <project path="private/google-modules/display/samsung" name="kernel-google-modules-display-samsung" groups="partner" remote="custom"  />
+  <project path="private/google-modules/display/common" name="kernel-hoogle-modules-display-common" groups="partner" remote="custom" />
   <project path="private/google-modules/display/panels/caimito" name="kernel/google-modules/display/panels/caimito" groups="partner" />
   <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" />
   <project path="private/google-modules/edgetpu/janeiro" name="kernel-google-modules-edgetpu-janeiro" groups="partner" remote="custom" />
@@ -115,7 +115,7 @@
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
   <project path="private/google-modules/misc" name="kernel/google-modules/misc" groups="partner" />
   <project path="private/google-modules/perf" name="kernel/google-modules/perf" groups="partner" />
-  <project path="private/google-modules/power/mitigation" name="kernel/google-modules/power/mitigation" groups="partner" />
+  <project path="private/google-modules/power/mitigation" name="kernel-google-modules-power-mitigation" groups="partner" remote="custom" />
   <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" />
   <project path="private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" />
   <project path="private/google-modules/radio/samsung/s5300" name="kernel-google-modules-radio-samsung-s5300" groups="partner" remote="custom" />
@@ -131,7 +131,7 @@
   <project path="private/google-modules/typec" name="kernel/google-modules/typec" groups="partner" />
   <project path="private/google-modules/uwb/qorvo/dw3000" name="kernel/google-modules/uwb/qorvo/dw3000" groups="partner" />
   <project path="private/google-modules/uwb/qorvo/qm35" name="kernel/google-modules/uwb/qorvo/qm35" groups="partner" />
-  <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="partner" />
+  <project path="private/google-modules/video/gchips" name="kernel-google-modules-video-gchips" groups="partner" remote="custom" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
   <project path="private/google-modules/wlan/bcm4383" name="kernel/google-modules/wlan/bcmdhd/bcm4383" groups="partner" />
   <project path="private/google-modules/wlan/bcm4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" />
