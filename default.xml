@@ -112,7 +112,7 @@
   <project path="private/google-modules/gxp/gs201" name="kernel-google-modules-gxp-gs201" groups="partner" remote="custom" />
   <project path="private/google-modules/gxp/zuma" name="kernel/google-modules/gxp/zuma" groups="partner" />
   <project path="private/google-modules/hdcp/samsung" name="kernel/google-modules/hdcp/samsung" groups="partner" />
-  <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
+  <project path="private/google-modules/lwis" name="kernel-google-modules-lwis" groups="partner" remote="custom" />
   <project path="private/google-modules/misc" name="kernel/google-modules/misc" groups="partner" />
   <project path="private/google-modules/perf" name="kernel/google-modules/perf" groups="partner" />
   <project path="private/google-modules/power/mitigation" name="kernel-google-modules-power-mitigation" groups="partner" remote="custom" />
