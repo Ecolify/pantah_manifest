@@ -100,7 +100,7 @@
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel-google-modules-bms" groups="partner" remote="custom" />
   <project path="private/google-modules/display/samsung" name="kernel-google-modules-display-samsung" groups="partner" remote="custom"  />
-  <project path="private/google-modules/display/common" name="kernel-hoogle-modules-display-common" groups="partner" remote="custom" />
+  <project path="private/google-modules/display/common" name="kernel-google-modules-display-common" groups="partner" remote="custom" />
   <project path="private/google-modules/display/panels/caimito" name="kernel/google-modules/display/panels/caimito" groups="partner" />
   <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" />
   <project path="private/google-modules/edgetpu/janeiro" name="kernel-google-modules-edgetpu-janeiro" groups="partner" remote="custom" />
