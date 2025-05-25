@@ -111,7 +111,7 @@
   <project path="private/google-modules/gpu" name="kernel-google-modules-gpu" groups="partner" remote="custom" />
   <project path="private/google-modules/gxp/gs201" name="kernel-google-modules-gxp-gs201" groups="partner" remote="custom" />
   <project path="private/google-modules/gxp/zuma" name="kernel/google-modules/gxp/zuma" groups="partner" />
-  <project path="private/google-modules/hdcp/samsung" name="kernel/google-modules/hdcp/samsung" groups="partner" />
+  <project path="private/google-modules/hdcp/samsung" name="kernel-google-modules-hdcp-samsung" groups="partner" remote="custom" />
   <project path="private/google-modules/lwis" name="kernel-google-modules-lwis" groups="partner" remote="custom" />
   <project path="private/google-modules/misc" name="kernel/google-modules/misc" groups="partner" />
   <project path="private/google-modules/perf" name="kernel/google-modules/perf" groups="partner" />
@@ -134,7 +134,7 @@
   <project path="private/google-modules/video/gchips" name="kernel-google-modules-video-gchips" groups="partner" remote="custom" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
   <project path="private/google-modules/wlan/bcm4383" name="kernel/google-modules/wlan/bcmdhd/bcm4383" groups="partner" />
-  <project path="private/google-modules/wlan/bcm4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" />
+  <project path="private/google-modules/wlan/bcm4389" name="kernel-google-modules-wlan-bcmdhd-bcm4389" groups="partner" remote="custom" />
   <project path="private/google-modules/wlan/bcm4390" name="kernel/google-modules/wlan/bcmdhd/bcm4390" groups="partner" />
   <project path="private/google-modules/wlan/bcm4398" name="kernel/google-modules/wlan/bcmdhd/bcm4398" groups="partner" />
   <project path="private/google-modules/wlan/dhd43752p" name="kernel/google-modules/wlan/syna/dhd43752p" groups="partner" />
