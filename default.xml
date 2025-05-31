@@ -3,6 +3,12 @@
   <remote  name="aosp"
     fetch="https://android.googlesource.com/"
     review="https://android.googlesource.com/" />
+  
+  <remote  name="aosp2"
+    fetch="https://android.googlesource.com/"
+    review="https://android.googlesource.com/"
+    revision="refs/tags/android-16-beta-1_r0.10" />
+  
   <default revision="refs/tags/android-16-beta-4.1_r0.11"
     remote="aosp" sync-j="4" />
   <project path="aosp" name="kernel/common" groups="partner" >
@@ -76,7 +82,7 @@
   <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
-  <project path="private/google-modules/bluetooth/synaptics" name="kernel/google-modules/bluetooth/synaptics" groups="partner" />
+  <project path="private/google-modules/bluetooth/synaptics" name="kernel/google-modules/bluetooth/synaptics" groups="partner" remote="aosp2" />
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
   <project path="private/google-modules/display/samsung" name="kernel/google-modules/display/samsung" groups="partner" />
