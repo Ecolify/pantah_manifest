@@ -1,1 +1,0 @@
-# android-gs-pantah-6.1-android15-qpr2
