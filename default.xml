@@ -8,6 +8,11 @@
     fetch="https://android.googlesource.com/"
     review="https://android.googlesource.com/"
     revision="refs/tags/android-16-beta-1_r0.10" />
+ 
+  <remote  name="git"
+    fetch="https://github.com/Ecolify/"
+    review="https://github.com/Ecolify/"
+    revision="refs/heads/android-16-beta-4.1_r0.11" />
   
   <default revision="refs/tags/android-16-beta-4.1_r0.11"
     remote="aosp" sync-j="4" />
@@ -86,7 +91,7 @@
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
   <project path="private/google-modules/display/samsung" name="kernel/google-modules/display/samsung" groups="partner" />
-  <project path="private/google-modules/display/common" name="kernel/google-modules/display/common" groups="partner" />
+  <project path="private/google-modules/display/common" name="kernel-google-modules-display-common" groups="partner" remote="git" />
   <project path="private/google-modules/display/panels/caimito" name="kernel/google-modules/display/panels/caimito" groups="partner" />
   <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" />
   <project path="private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="partner" />
