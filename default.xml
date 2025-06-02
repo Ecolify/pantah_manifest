@@ -131,7 +131,7 @@
   <project path="private/google-modules/video/gchips" name="kernel-google-modules-video-gchips" groups="partner" remote="git" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
   <project path="private/google-modules/wlan/bcm4383" name="kernel/google-modules/wlan/bcmdhd/bcm4383" groups="partner" />
-  <project path="private/google-modules/wlan/bcm4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" />
+  <project path="private/google-modules/wlan/bcm4389" name="kernel-google-modules-wlan-bcmdhd-bcm4389" groups="partner" remote="git" />
   <project path="private/google-modules/wlan/bcm4390" name="kernel/google-modules/wlan/bcmdhd/bcm4390" groups="partner" />
   <project path="private/google-modules/wlan/bcm4398" name="kernel/google-modules/wlan/bcmdhd/bcm4398" groups="partner" />
   <project path="private/google-modules/wlan/dhd43752p" name="kernel/google-modules/wlan/syna/dhd43752p" groups="partner" />
