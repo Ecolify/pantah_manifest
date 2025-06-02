@@ -89,7 +89,7 @@
   </project>
   <project path="private/google-modules/soc/gs" name="kernel-google-modules-soc-gs" groups="partner" remote="git" />
   <project path="private/google-modules/amplifiers" name="kernel-google-modules-amplifiers" groups="partner" remote="git" />
-  <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
+  <project path="private/google-modules/aoc" name="kernel-google-modules-aoc" groups="partner" remote="git" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bluetooth/synaptics" name="kernel/google-modules/bluetooth/synaptics" groups="partner" remote="aosp2" />
@@ -126,7 +126,7 @@
   <project path="private/google-modules/touch/synaptics" name="kernel/google-modules/touch/synaptics_touch" groups="partner" />
   <project path="private/google-modules/trusty" name="kernel/google-modules/trusty" groups="partner" />
   <project path="private/google-modules/typec" name="kernel/google-modules/typec" groups="partner" />
-  <project path="private/google-modules/uwb/qorvo/dw3000" name="kernel/google-modules/uwb/qorvo/dw3000" groups="partner" />
+  <project path="private/google-modules/uwb/qorvo/dw3000" name="kernel-google-modules-uwb-qorvo-dw3000" groups="partner" remote="git" />
   <project path="private/google-modules/uwb/qorvo/qm35" name="kernel/google-modules/uwb/qorvo/qm35" groups="partner" />
   <project path="private/google-modules/video/gchips" name="kernel-google-modules-video-gchips" groups="partner" remote="git" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
