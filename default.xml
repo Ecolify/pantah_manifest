@@ -13,10 +13,15 @@
     fetch="https://github.com/Ecolify/"
     review="https://github.com/Ecolify/"
     revision="refs/heads/android-16-beta-4.1_r0.11" />
+
+  <remote  name="git2"
+    fetch="https://github.com/Ecolifyt/"
+    review="https://github.com/Ecolifyt/"
+    revision="refs/heads/android-16-beta-4.1_r0.11" />
   
   <default revision="refs/tags/android-16-beta-4.1_r0.11"
     remote="aosp" sync-j="4" />
-  <project path="aosp" name="kernel/common" groups="partner" >
+  <project path="aosp" name="kernel-common" groups="partner" remote="git2" >
     <linkfile dest="common/build.config.constants" src="build.config.constants"/>
     <linkfile dest="common/modules.bzl" src="modules.bzl"/>
   </project>
@@ -38,11 +43,11 @@
     <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
     <linkfile dest=".d14.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/gs201" name="kernel/devices/google/gs201" groups="partner" >
+  <project path="private/devices/google/gs201" name="kernel-devices-google-gs201" groups="partner" remote="git" >
     <linkfile dest="build_gs201.sh" src="build_gs201.sh"/>
     <linkfile dest=".c2.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/pantah" name="kernel/devices/google/pantah" groups="partner,pantah" >
+  <project path="private/devices/google/pantah" name="kernel-devices-google-pantah" groups="partner,pantah" remote="git" >
     <linkfile dest="build_pantah.sh" src="build_pantah.sh"/>
     <linkfile dest=".d1.bazelrc" src="device.bazelrc"/>
   </project>
